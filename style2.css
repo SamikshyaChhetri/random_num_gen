@@ -1,0 +1,55 @@
+#word{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 100px; */
+}
+#guess{
+    margin-left: 300px;
+    margin-top: 50px;
+    background:linear-gradient(rgb(198, 211, 206), rgb(89, 222, 157));
+    padding: 50px;
+    border-radius: 20px;
+}
+.hi{
+    margin-right: 300px;
+    margin-top: 50px;
+    background: linear-gradient(rgb(188, 207, 220),rgb(65, 99, 193));
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+}
+
+button[type="check"]{
+    margin-top: 20px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(29, 27, 27, 0.5);
+    border: none;
+    padding: 10px;
+}
+button[type="button"]{
+    /* margin-top: 5px; */
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(29, 27, 27, 0.5);
+    border: none;
+    padding: 10px;
+}
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    font-size: large;
+}

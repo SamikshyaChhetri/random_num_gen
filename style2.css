@@ -1,30 +1,54 @@
-#word{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    padding-top: 200px;
-    font-size: 50px;
 
-}
 .container{
     display: flex;
     justify-content: space-between;
     /* margin: 100px; */
 }
+#word{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+}
 #guess{
-    margin-left: 300px;
+    margin-left: 150px;
     margin-top: 50px;
-    background:linear-gradient(rgb(198, 211, 206), rgb(89, 222, 157));
+    background:linear-gradient( rgb(113, 236, 176),rgb(255, 255, 255));
     padding: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px 2px rgb(26, 161, 109);
+    height: 150px;
+
+}
+.hii{
+    margin-right: 150px;
+    margin-top: 50px;
+    /* display: flex; */
+    background: linear-gradient(rgb(255, 255, 255),rgb(88, 185, 224));
+    box-shadow: 2px 3px 3px 2px rgb(26, 91, 161);
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 20px;
 }
 .hi{
-    margin-right: 300px;
-    margin-top: 50px;
-    background: linear-gradient(rgb(188, 207, 220),rgb(65, 99, 193));
-    padding-top: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
+    display: flex;
+}
+#sho{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.color{
+    /* background: linear-gradient(rgb(225, 176, 227),pink,rgb(255, 217, 224)); */
+    background: linear-gradient(rgb(121, 191, 121),white,skyblue);
     border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 120px;
+    box-shadow: 0px 3px 3px 0px gray;
+    
 }
 
 button[type="check"]{
@@ -52,4 +76,16 @@ input[type="text"]{
     height: 30px;
     outline: none;
     font-size: large;
+}
+#displayans{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+#display{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
 }

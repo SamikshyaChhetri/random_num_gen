@@ -1,4 +1,4 @@
-const array = ["butterfly", "samikshya", "baniya", "chhetri", "control", "excuse", "javascript", "ricecooker", "cauliflower", "facebook", "mobile", "laptop", "window"];
+const array = ["butterfly", "samikshya", "baniya", "chhetri", "control", "excuse", "javascript", "ricecooker", "cauliflower", "facebook", "mobile", "laptop", "window","hehe","earphone","badminton","football","water","theory","computer","cylinder"];
 const random = Math.floor(Math.random() * array.length);
 const str = array[random];
 const a = str.split('');
@@ -14,13 +14,17 @@ guessDisplay.innerHTML = b;
 
 const element = document.getElementById('check');
 element.addEventListener('click', function () {
-    const c = document.getElementById('ip');
+    const c = document.getElementById('ipp');
     const myelement = c.value;
     const disp = document.getElementById('display');
-    if (b === myelement) {
-        disp.innerHTML = 'Right'; // Display "Right" if the guess is correct
+    if (str=== myelement) {
+        disp.innerHTML = 'Right';
+        disp.style.color='green';
+        
     } else {
-        disp.innerHTML = 'Wrong'; // Display "Wrong" if the guess is incorrect
+        disp.innerHTML = 'Wrong';
+        disp.style.color='red'
+
     }
 });
 
@@ -29,3 +33,4 @@ showButton.addEventListener('click', function () {
     const dis = document.getElementById('displayans');
     dis.innerHTML = str;
 });
+
